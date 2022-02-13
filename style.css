@@ -1,0 +1,91 @@
+.mobileicon{
+    display: inline-block;
+    color: white;
+    background: rgb(68, 127, 255);
+    border-radius: 4px;
+    height: 40px;
+    width: 25px;
+}
+.header .navbar-brand{
+    font-size:27px;
+}
+.navmid{
+    margin-left: 130px;
+}
+
+.sliderm{
+    background: url(img/mbr-10.jpg) no-repeat center center; 
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.sliderm::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(34, 33, 33, 0.584);
+    z-index: -1;
+}
+.slideinput{
+    margin-left: 400px;
+    margin-top:auto;
+}
+.sliderm h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.subbuton{
+    padding: 10px;
+}
+.subbutony{
+    padding: 10px;
+    font-weight: 500;
+}
+.numcount h2{
+    font-size: 55px;
+}
+.numcount p{
+    font-size: 25px;
+}
+.midmanh h1{
+    margin-top: 70px;
+    font-size: 50px;
+    padding: 0 30px;
+}
+.midmanh p{
+    margin-top: 25px;
+    padding: 0 50px;
+    font-size: 25px;
+}
+.midmanh{
+    padding:20px;
+    background-color: rgb(226, 242, 247);
+}
+.halkatext p{
+    font-size: 25px;
+    margin: 20px;
+
+}
+.halkatext{
+    margin: 50px 30px;
+}
+.left-img{
+    width: 40%;
+    overflow: hidden;
+}
+.right-text{
+    width: 60%;
+    padding: 25px;
+}
+.future-item{
+    height: 300px;
+    box-shadow:4px 0 30px gray;
+}
+.left-img img{
+    height: 300px
+
+    
+}

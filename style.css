@@ -89,3 +89,26 @@
 
     
 }
+.protfolio{}
+.protfolio a{
+    position: relative;
+    display: block;
+
+}
+.protfolio a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(97, 143, 230,0.6);
+    visibility: hidden;
+
+}
+.item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+    transition: .4s;
+
+}

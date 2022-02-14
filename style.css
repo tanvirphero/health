@@ -112,3 +112,76 @@
     transition: .4s;
 
 }
+
+/* prising part */
+.prising-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px rgba(64, 87, 191, 0.21);
+}
+.prising-item h1{}
+.prising-item h5{}
+.prising-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+.prising-item ul li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: gray;
+}
+.prising-item ul li span{
+    color: rgb(6, 9, 179);
+    font-size: 26px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+    
+}
+.prising-item-button{
+    color: cyan;
+    padding: 16px 30px;
+     
+}
+.prising-item-button a{}
+.author-info img{
+    width: 86px;
+}
+.author-info{
+    width: 250px;
+    margin: auto;
+    padding-top: 30px;
+}
+.author-detail{
+    position: relative;
+    right: 15px;
+    top: 15px;
+}
+.testimonial span{
+    font-size: 60px;
+}
+.testimonial-top{
+    background-color:rgba(209, 209, 207, 0.623);
+}
+
+/* about section */
+.card-item img{
+    margin-top: -73px;
+}
+.card-row-about{
+    margin-top: 150px;
+}
+.about-section{
+    background-color: rgba(209, 209, 207, 0.423);
+    margin-top:150px !important;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+.last-img img{
+    height: 390px;
+    width: auto;
+    margin-left: 28%;
+}
